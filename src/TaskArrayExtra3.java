@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class TaskArrayExtra3 {
     static Scanner scanner = new Scanner(System.in);
 
+    //Элементы массива, которые меньше среднего арифметического
+
     public static void main(String[] args) {
     int[] fillArray  = getArray();
     int averageSum = getAverageSumArray(fillArray);

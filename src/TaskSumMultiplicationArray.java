@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class TaskSumMultiplicationArray {
     static Scanner scanner = new Scanner(System.in);
 
+    //Сумма и произведение элементов массива
+
     public static void main(String[] args) {
         double[] fillArray = getArray();
         double sumElementArray = getSumElementArray(fillArray);

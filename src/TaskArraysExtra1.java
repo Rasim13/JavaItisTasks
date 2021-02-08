@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class TaskArraysExtra1 {
     static Scanner scanner = new Scanner(System.in);
 
+    //Сумма четных положительных элементов массива
+
     public static void main(String[] args) {
         int[] totalArray= getArray();
         int sumPositiveEven = getSum(totalArray);

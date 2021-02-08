@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class TaskReverseArray {
     static Scanner scanner = new Scanner(System.in);
 
+    //Реверс массива
+
     public static void main(String[] args) {
         int[] fillArray  = getArray();
         showReverseArray(fillArray);

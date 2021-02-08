@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class TaskArrayExtra2 {
     static Scanner scanner = new Scanner(System.in);
 
+    //Максимальный из элементов массива с четными индексами
+
     public static void main(String[] args) {
         int[] totalArray  = getArray();
         int maxElement = getMaxElementTotalArray(totalArray);

@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class TaskArrayExtra4 {
     static Scanner scanner = new Scanner(System.in);
 
+    //Среднее арифметическое положительных элементов массива
+
     public static void main(String[] args) {
         int[] fillArray  = getArray();
         double averageSumPositiveElement = getAverageSum(fillArray);
