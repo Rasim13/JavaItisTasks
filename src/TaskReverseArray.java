@@ -7,7 +7,6 @@ public class TaskReverseArray {
     public static void main(String[] args) {
         int[] fillArray  = getArray();
         showReverseArray(fillArray);
-
     }
 
     public static void showReverseArray(int[] fillArray) {
