@@ -6,11 +6,11 @@ public class TaskArrayExtra3 {
     public static void main(String[] args) {
     int[] fillArray  = getArray();
     int averageSum = getAverageSumArray(fillArray);
-    getResultArray(fillArray, averageSum);
+    showResultArray(fillArray, averageSum);
 
 }
 
-    public static void getResultArray(int[] totalArray, int averageSum) {
+    public static void showResultArray(int[] totalArray, int averageSum) {
         for (int i = 0; i < totalArray.length; i++) {
             if(totalArray[i] < averageSum) {
                 System.out.println("result = " + totalArray[i]);
