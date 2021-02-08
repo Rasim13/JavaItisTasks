@@ -10,7 +10,7 @@ public class TaskReverseArray {
 
     }
 
-    private static void showReverseArray(int[] fillArray) {
+    public static void showReverseArray(int[] fillArray) {
         int size = fillArray.length;
         for (int i = 0; i < fillArray.length / 2; i++) {
             int temp = fillArray[i];
