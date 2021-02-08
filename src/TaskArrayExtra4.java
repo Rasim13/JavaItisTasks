@@ -9,7 +9,7 @@ public class TaskArrayExtra4 {
         System.out.println("result = " + averageSumPositiveElement);
     }
 
-    private static double getAverageSum(int[] fillArray) {
+    public static double getAverageSum(int[] fillArray) {
         int sum = 0;
         int count = 0;
         for (int i = 0; i < fillArray.length; i++) {
